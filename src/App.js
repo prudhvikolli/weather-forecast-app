@@ -3,7 +3,7 @@ import './App.css';
 import { Navbar, NavbarBrand } from 'reactstrap';
 import { cities, days, months } from './constants';
 import Select from 'react-select';
-const API_KEY = '371d4e84f04f4e6eafe38174f3de11e5';
+const API_KEY = ' 21d6ae886a8444359a6881c394f4c2e8';
 
 function App() {
   const [loading, setLoading] = useState(false);
