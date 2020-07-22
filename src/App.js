@@ -15,16 +15,16 @@ function App() {
       option: (provided, state) => ({
         ...provided,
         opacity: 0.8,
-        fontSize: '28 px',
+        fontSize: '28px',
       }),
       control: (provided) => ({
         ...provided,
-        fontSize: '28 px',
+        fontSize: '28px',
       }),
       singleValue: (provided, state) => ({
         ...provided,
         color: state.data.color,
-        fontSize: '28 px',
+        fontSize: '28px',
       }),
     }),
     []
